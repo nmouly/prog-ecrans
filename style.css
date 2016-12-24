@@ -1,0 +1,107 @@
+/* 2012-02-21 ajout de pas-de-scroll pour afficher les avec les meme styles avec ou sans scroll */
+body {
+		background:#cecece;
+}
+* { margin:0; padding:0; font-family:Verdana,Arial,Sans-Serif;}
+
+.etage {
+	color:#CDCDCF;
+	font-size: 26pt;
+}
+.nbetage {
+	color:#CDCDCF;
+	font-size: 122pt;
+}
+.eetage {
+	color:#CDCDCF;
+	font-size: 100pt;
+}
+
+#newsticker-demo {
+	width:669px;
+	background:#cecece;
+	font-family:Verdana,Arial,Sans-Serif;
+	font-size:16px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0px;
+}
+
+#newsticker-demo a { text-decoration:none; }
+#newsticker-demo img { border: 2px solid #FFFFFF; }
+
+#newsticker-demo .title {
+	text-align:center;
+	font-variant: small-caps;
+	padding:5px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	line-height: 120%;
+	background-color: #9EA9B9;
+}
+
+.newsticker-jcarousellite, .pas-de-scroll { width:660px; }
+.newsticker-jcarousellite ul li, .pas-de-scroll ul li{
+	list-style:none;
+	display:block;
+	/*padding-bottom:1px;*/
+	padding:3px;
+	margin-bottom:5px;
+	color:#000000;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000000;
+}
+.newsticker-jcarousellite .thumbnail, .pas-de-scroll .thumbnail { float:left; width:100px; }
+.newsticker-jcarousellite .info, .pas-de-scroll .info {
+	float:left;
+	width:180px;
+	font-weight: bold;
+	color: #D53541;
+	text-align: center;
+}
+.newsticker-jcarousellite .info2, .pas-de-scroll .info2 { float:left; width:300px; text-align: center;}
+.newsticker-jcarousellite .info3, .pas-de-scroll .info3 { float:left; width:150px; text-align: center;}
+/*.newsticker-jcarousellite .info span.cat {
+	display: block;
+	font-size:10px;
+	color:#ffcd9c;
+}*/
+
+.newsticker-jcarousellite .type, .pas-de-scroll .type {
+	float:left;
+	width:170px;
+	color: #D53541;
+	text-align: left;
+	font-size: 0.8em;
+}
+.newsticker-jcarousellite .nom, .pas-de-scroll .nom {
+	float:left;
+	width:350px;
+	text-align:left;
+	font-size: 0.8em;
+}
+.newsticker-jcarousellite .matiere, .pas-de-scroll .matiere {
+	float:left;
+	width:520px;
+	text-align: left;
+	font-size: 0.8em;
+	color:  #000000;
+	font-style: italic;
+}
+.newsticker-jcarousellite .dateheure, .pas-de-scroll .dateheure { float:left; width:130px; text-align: right;font-size: 0.8em;}
+.newsticker-jcarousellite .salle, .pas-de-scroll .salle {
+	float:left;
+	width:130px;
+	text-align: right;
+	font-size: 0.8em;
+	color: #D53541;
+}
+
+.clear { clear: both; }
